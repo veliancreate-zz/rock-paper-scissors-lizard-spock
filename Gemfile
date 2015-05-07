@@ -10,6 +10,7 @@ gem 'rack-flash3'
 gem 'sinatra-partial'
 gem 'sinatra-contrib'
 gem 'tilt'
+gem 'em-websocket'
 
 group :development, :test do
   gem 'capybara'

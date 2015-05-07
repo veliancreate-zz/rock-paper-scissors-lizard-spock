@@ -14,7 +14,11 @@ GEM
       xpath (~> 2.0)
     daemons (1.2.2)
     diff-lcs (1.2.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
     eventmachine (1.0.7)
+    http_parser.rb (0.6.0)
     json (1.8.2)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -84,6 +88,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  em-websocket
   json
   launchy
   rack-flash3
